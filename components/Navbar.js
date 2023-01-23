@@ -1,9 +1,9 @@
 import Link from 'next/link';
-
+import Image from 'next/image';
 const Navbar = () => {
   return (
-    <nav className='flex flex-row justify-between bg-gray-400 text-gray-800 p-3 mb-4 shadow-lg'>
-      <div>Ninjas</div>
+    <nav className='flex flex-row justify-between bg-gray-100 text-gray-800 p-3 mb-4 shadow-lg'>
+      <Image src='/logo.png' width={128} height={77} />
       <div className='flex space-x-4'>
         <Link href='/'>
           <a>Home</a>
